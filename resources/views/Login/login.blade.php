@@ -16,7 +16,7 @@
               
               <div><br>
                 <span>Submit</span>
-                <button class="btn btn-succes" type="submit" value="submit" name="submit">Login</button>
+                <button class="btn btn-success" type="submit" value="submit" name="submit">Login</button>
               </div>
         </form>
     </div>
