@@ -23,15 +23,30 @@
         height: 500px;
         padding-top: 100px;
     }
+    .custome-product{
+        height: 600px;
+    }
+    img.slider-img{
+        height: 400px !important
+    }
+    .slider-text{
+       color:  #27f5f5;
+    }
+    .panel-default{
+        margin-top: 100px;
+    }
+    .trending-wrapper{
+        margin: 30px;
+    }
+    .trending-item{
+        float: left;
+        width: 16%;
+    }
+    .trending-image{
+        height: 100px;
+    }
+    .detail-img{
+        height: 200px;
+    }
 </style>
-<script>
-    // $(document).ready(function()
-    // {
-    //     $("button").click(function()
-    //     {
-    //         alert('Ok')
-
-    //     })
-    // })
-</script>
 </html>
