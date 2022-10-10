@@ -1,7 +1,6 @@
 @extends('Login.master')
 @section('content')
 <div class="custome-product">
-
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -50,7 +49,6 @@
       @endforeach
     </div>
   </div>
-
 
 </div>
 @endsection

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 /*
@@ -13,12 +14,12 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', [ProductController::class,'index']);
+Route::get('/login', function(){
+    return view('Login.login');
 });
-
-Route::view('login','Login/login');
-Route::get('product',[ProductController::class,'index']);
+Route::post('/login',[LoginController::class,'index']);
+Route::get('/',[ProductController::class,'index']);
 Route::get('detail/{id}',[ProductController::class,'detail']);
-
+Route::post('add-to-cart',[ProductController::class,'addToCart']);
 

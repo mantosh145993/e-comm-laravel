@@ -3,15 +3,16 @@
 <div class="container custome-login" >
     <div class="row">
     <div class="col-sm-4 col-sm-offset-4">
-        <form>
+        <form  method="post">
+          @csrf
             <div>
                 <span>Email</span>
-                <input type="text" class="form-control" placeholder="email">
+                <input type="text" name="email" class="form-control" placeholder="email">
               </div>
               
               <div >
                 <span>Password</span>
-                <input type="password" class="form-control" placeholder="password">
+                <input type="password" name="password" class="form-control" placeholder="password">
               </div>
               
               <div><br>
@@ -23,4 +24,10 @@
     </div>
 </div>
 @endsection
+
+<script>
+  function myFunction(){
+    alert('Hello');
+  }
+</script>
 
